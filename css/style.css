@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background: #F0FFF0;
+    min-height: 100vh;
+}
+.container{
+    margin: auto;
+}
+
+.navbar-expand-md .navbar-nav {
+    flex-direction: row;
+    color: #000;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    
+}
+.nav-item{
+    margin-right: 20px;
+}
+.navbar button{
+    border: none;
+    background: none;
+    background: #21B573;
+    border-radius: 33px;
+    padding: 12px 28px;
+    color: #fff;
+}
+.banner_content{}
+.banner_content h5{
+    color: #FD511A;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 24px;
+}
+.banner_content h1{
+    color: #000;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    line-height: 70px;
+}
+.banner_content h1 span{
+    color: #21B573;
+}
+.banner_content h3{
+    color: #6C6B6B;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    line-height: 36px;
+    
+}
+.btn-custom{
+    border: none;
+    background: none;
+    background: #21B573;
+    border-radius: 33px;
+    padding: 12px 36px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 20px;
+    border: #000 1px solid;
+}
+.btn-custom:hover{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    background-color: #21B573;
+    border: #000 1px solid;
+    color: #FFFFFF;
+
+}
+.feature_content{
+    background: #F8FFFB;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.feature_content img{
+    width: 20%;
+}
+.feature_content h2{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.feature_content p{
+    color: #585859;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+}
+.feature_content:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px 0px #0000001A;
+    border-radius: 10px;
+}
+.course{
+    
+}
+.course_details{
+    box-shadow: 0px 10px 40px 0px #0000001A;
+    border-radius: 20px;
+    padding: 30px 20px;
+}
+.course h1{
+    color: #413960;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.course img{}
+.course h2{
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+.course p{
+    color: #585859;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    margin-top: 5px;
+}
+.course ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0%;
+}
+.course li{
+    color: #585859;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+.course i{
+    font-size: 16px;
+    margin-right: 10px;
+}
+.btn-course{
+    border: none;
+    background: none;
+    background: #21B573;
+    border-radius: 33px;
+    padding: 8px 28px;
+    color: #fff;
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.testimonial{}
+.testimonial h1{
+    color: #413960;
+    font-size: 36px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.client{
+    width: 50%;
+    margin-left: auto;
+}
+.client img{
+    
+}
+.client_details p{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+    margin-left: 20px;
+}
+.footer{
+    background: #282531;
+    min-height: 40vh;
+}
+.footer p{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+.footer ul{
+    list-style: none;
+    color: #fff;
+}
+.footer li{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+}
+.footer li:first-child{
+    font-weight: 700;
+    font-size: 18px;
+}
+.footer h5{
+    color: #CDCDCD;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Poppins", sans-serif;
+    line-height: 30px;
+
+}
